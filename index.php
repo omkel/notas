@@ -25,8 +25,8 @@ h1 {
 }
 
 #note {
-    width: 100%;
-    height: 100px;
+    width: 50%;
+    height: 50px;
     margin-bottom: 10px;
 }
 
