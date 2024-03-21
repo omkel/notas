@@ -7,9 +7,11 @@
 </head>
 <style>body {
  body {
+
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
 }
+
 
 .container {
     max-width: 40px;
@@ -21,18 +23,21 @@
 }
 
 h1 {
-    text-align: center;
+    text-align:  left;
 }
 
 #note {
-    width: 100%;
-    height: 100px;
+    width: 50%;
+    height: 50px;
     margin-bottom: 10px;
 }
 
 button {
     display: block;
     margin: 0 auto;
+    background-color: BLUE;
+    text-align: center; 
+    color: white;
 }
 
 }
@@ -43,7 +48,7 @@ button {
         <textarea name="note" id="note" placeholder="Escribe tu nota aquí"></textarea>
         <button type="submit">Guardar Nota</button>
     </form>
- <h2>notas guardadas</h2>
+ <h2>Notas guardadas</h2>
     <div id="notesContainer">
         <!-- Aquí se cargarán las notas -->
     </div>
